@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D1A2D;
+}
+.main-container{
+background-color: #15273F;
+height: 470px;
+margin: 30px auto;
+width: 280px;
+border-radius: 10px;
+box-shadow: 5px 15px 15px 15px rgba(0, 0, 0, 0.2);
+
+}
+.main{
+    position: relative;
+    width: 220px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+ .sub{
+    position: absolute;
+    border: 0px solid red;
+    width: 17.5%;
+    margin-left: 29px;
+    margin-top: 10px;
+    height: 220px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.8;
+ }
+ .sub:hover{
+    background-color: #0198AB;
+    background-image: url(/images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+.text{
+    color: white;
+}
+h3{
+ margin: 25px;
+}
+p{
+    margin-left: 25px;
+    font-family: Outfit;
+    font-size: 14px;
+    color:  hsl(215, 51%, 70%);
+
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.ETH{
+    color: #1FEFED;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.clock{
+   color:hsl(215, 51%, 70%);
+   display: flex;
+   flex-direction: row;
+   gap: 5px;
+}
+.human{
+  color:hsl(215, 51%, 70%);
+  font-family: Outfit;
+  border-top: 1px solid;
+  padding-top: 10px;
+  margin: 25px;
+  align-items: center;
+}
+.human img{
+    width: 20px;
+    border: 1px solid white;
+    border-radius: 9px;
+    margin-right: 5px;
+}
+#name{
+    color: white;
+}
+
+@media screen and (max-width:500%) {
+   .main-container{
+    width: 100%;
+   } 
+}
